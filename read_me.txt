@@ -20,10 +20,11 @@ EDC_AICC_model2.csv, Vostok_AICC_model2.csv : This file contains log(AAR) (y), t
 
 
 The R script All_functions.R consists of following R functions.  
-LS_Estimate: This function computes $\hat{gamma}$ and $\log \hat{g}$ given in section 2. 
-Smooth_Estimate: This function computes $\tilde{gamma}$ and $\log {\tilde{g}}$ given in section 2.
-BS_Estimate: This function computes the bootstrap standard error, bootstarp quantiles of  $\tilde{gamma}$ and $\log {\tilde{g}}$ given in section 4.  
+LS_Estimate: This function computes $\hat{\gamma}$ and $\log \hat{g}$ given in section 2. 
+Smooth_Estimate: This function computes $\tilde{\gamma}$ and $\log {\tilde{g}}$ given in section 2.
+BS_Estimate: This function computes the bootstrap standard error, bootstarp quantiles of  $\tilde{\gamma}$ and $\log {\tilde{g}}$ given in section 4.  
 
 
 
 The R script files Parameter_estimate_EPICA_Dome_C.R and Parameter_estimate_Vostok.R uses the respective data files of the locations and estimates the model parameters along with generate the plots shown in Figure 6, 7 and 8 of the article. The runtime for these scripts are around 75 and 35 minutes respectively on a standard laptop of Intel(R) Core(TM) Ultra 7 155H (1.40 GHz) processor and 32.0 GB RAM.  
+
