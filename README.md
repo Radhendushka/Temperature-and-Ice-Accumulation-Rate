@@ -20,9 +20,9 @@ EDC_AICC_model2.csv, Vostok_AICC_model2.csv : This file contains log(AAR) (y), t
 
 
 The R script All_functions.R consists of following R functions.  
-LS_Estimate: This function computes $\hat{gamma}$ and $\log \hat{g}$ given in section 2. 
-Smooth_Estimate: This function computes $\tilde{gamma}$ and $\log {\tilde{g}}$ given in section 2.
-BS_Estimate: This function computes the bootstrap standard error, bootstarp quantiles of  $\tilde{gamma}$ and $\log {\tilde{g}}$ given in section 4.  
+LS_Estimate: This function computes $\hat{\gamma}$ and $\log \hat{g}$ given in section 2. 
+Smooth_Estimate: This function computes $\tilde{\gamma}$ and $\log {\tilde{g}}$ given in section 2.
+BS_Estimate: This function computes the bootstrap standard error, bootstarp quantiles of  $\tilde{\gamma}$ and $\log {\tilde{g}}$ given in section 4.  
 
 
 
